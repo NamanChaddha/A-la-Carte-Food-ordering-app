@@ -9,13 +9,9 @@ Password strength checks<br>
 3 login attempts limit<br>
 <br><br><br>
 🏪 Restaurant Owner Features
-
 Create and manage restaurant profile
-
 Add, edit, and delete menu items
-
 View customer orders (sales)
-
 View average customer ratings
 
 🧑‍🍳 Customer Features
