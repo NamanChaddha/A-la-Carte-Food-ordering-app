@@ -15,8 +15,9 @@ A La Carte is a menu-driven CLI application where:
 📊 Orders & ratings are stored and managed using MySQL
 
 Think of it as a mini Swiggy/Zomato, but in the terminal.
-
+<br><br><br><br>
 🎮 What Can You Do?
+
 🔐 Login System
 
 Separate login for Restaurant Owners & Customers
@@ -26,7 +27,9 @@ Username & password validation
 Strong password rules
 
 3-attempt login limit
+<br><br>
 
+MODE 1:
 🏪 Restaurant Owner Mode
 
 ✏️ Add / Edit restaurant details
@@ -37,6 +40,9 @@ Strong password rules
 
 ⭐ View average ratings
 
+<br><br>
+
+MODE 2:
 🧑‍🍳 Customer Mode
 
 👤 Create & update profile
@@ -52,6 +58,7 @@ Strong password rules
 🕒 View past orders
 
 ⭐ Rate restaurants
+<br><br><br><br>
 
 🗄️ Behind the Scenes (Database)
 
@@ -66,6 +73,7 @@ Orders
 Ratings
 
 📌 Tables are automatically created when the app runs for the first time.
+<br><br><br><br>
 
 🛠️ Tech Stack
 Technology	Used For
@@ -75,6 +83,7 @@ Technology	Used For
 🕒 datetime	Order timestamps
 ▶️ How to Run This Project
 
+<br><br><br><br>
 
 ✅ Prerequisites
 
@@ -98,8 +107,10 @@ mycon = sqltor.connect(
 🚀 Run the App
 python main.py
 
+<br><br><br><br>
 
 Sit back and enjoy ordering food from your terminal 😄
+<br><br><br><br>
 
 🧠 How the App Flows
 App Start
@@ -113,6 +124,7 @@ Role-based Menu
 Database Operations
    ↓
 Exit
+<br><br><br><br>
 
 ⚠️ Current Limitations
 
@@ -122,28 +134,21 @@ Passwords stored as plain text
 
 No real payment gateway
 
-Basic error handling
+<br><br><br><br>
 
-(These are intentional to focus on learning core concepts.)
+🚀<u>Enhancements(currently happening)</u>
 
-🚀 Future Enhancements
-
-🌐 Convert to Flask / Django web app
-
+🌐 Convert to Flask / Django web app ( already into it)
 🔐 Password hashing
-
 📦 Order status tracking
-
 🧑‍💼 Admin panel
-
-🎨 Frontend UI
-
+🎨 Frontend UI(doing)
 🛡️ Secure SQL queries
+<br><br><br><br>
 
 👨‍💻 Author
-
 Naman Chaddha
-📘 Mini Project
+📘 Python-MySQL Project
 
 ⭐ Like this project?
 
