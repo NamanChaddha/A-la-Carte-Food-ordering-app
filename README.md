@@ -114,15 +114,25 @@ Sit back and enjoy ordering food from your terminal 😄
 
 🧠 How the App Flows
 App Start
+
    ↓
+   
 Choose User (Restaurant / Customer)
+
    ↓
+   
 Login or Create Account
+
    ↓
+   
 Role-based Menu
+
    ↓
+   
 Database Operations
+
    ↓
+   
 Exit
 <br><br><br><br>
 
@@ -151,5 +161,5 @@ Naman Chaddha
 📘 Python-MySQL Project
 
 ⭐ Like this project?
-
-Give it a ⭐ on GitHub — it really helps!
+<br>
+Give it a ⭐ on GitHub,it really helps!
