@@ -1,47 +1,63 @@
-# A-la-Carte-Food-ordering-app
-A Python + MySQL command-line food ordering system with restaurant and customer login, menu management, orders, and ratings.<br>
-This project simulates a real-world food delivery platform where restaurants can manage menus and customers can browse, order food, and rate restaurants.<br>
-<u>Features</u>
-<b>Authentication</b>
--Separate login & signup for Restaurants and Customers<br>
-Username & password validation<br>
-Password strength checks<br>
-3 login attempts limit<br>
-<br><br><br>
-🏪 Restaurant Owner Features
-Create and manage restaurant profile
+🍕 A La Carte
+Order. Eat. Rate. Repeat.
 
-Add, edit, and delete menu items
+A console-based food ordering & delivery application built using Python and MySQL, simulating how real-world food delivery platforms work.
 
-View customer orders (sales)
 
-View average customer ratings
+What is A La Carte?
 
-🧑‍🍳<b><u>Customer Features</u></b>
+A La Carte is a menu-driven CLI application where:
 
-Create and manage customer profile
+🏪 Restaurants manage their menus & track orders
 
-Browse available restaurants
+🧑‍🍳 Customers browse, order food & rate restaurants
 
-View restaurant menus
+📊 Orders & ratings are stored and managed using MySQL
 
-Order food with quantity selection
+Think of it as a mini Swiggy/Zomato, but in the terminal.
 
-Choose payment mode (Card / COD / UPI)
+🎮 What Can You Do?
+🔐 Login System
 
-View past orders
+Separate login for Restaurant Owners & Customers
 
-Rate restaurants (1–5)
+Username & password validation
 
-🗄️ Database Features
+Strong password rules
 
-Structured MySQL database
+3-attempt login limit
 
-Separate tables for:
+🏪 Restaurant Owner Mode
 
-Restaurant login & details
+✏️ Add / Edit restaurant details
 
-Customer login & details
+📋 Add & delete menu items
+
+📦 View customer orders (sales)
+
+⭐ View average ratings
+
+🧑‍🍳 Customer Mode
+
+👤 Create & update profile
+
+🍽️ Browse restaurants
+
+📜 View menus
+
+🛒 Order food with quantity selection
+
+💳 Choose payment method (Card / COD / UPI)
+
+🕒 View past orders
+
+⭐ Rate restaurants
+
+🗄️ Behind the Scenes (Database)
+
+All data is stored in MySQL, including:
+
+Users (restaurants & customers)
 
 Menus
 
@@ -49,45 +65,86 @@ Orders
 
 Ratings
 
+📌 Tables are automatically created when the app runs for the first time.
+
 🛠️ Tech Stack
+Technology	Used For
+🐍 Python	Application Logic
+🗄️ MySQL	Database
+⌨️ CLI	User Interface
+🕒 datetime	Order timestamps
+▶️ How to Run This Project
 
-Language: Python
 
-Database: MySQL
+✅ Prerequisites
 
-Interface: Command Line (CLI)
+Python 3.x
 
-Libraries Used:
+MySQL Server running
 
-mysql.connector
+📦 Install Required Package
+pip install mysql-connector-python
 
-datetime
+🔧 Update Database Credentials
 
-time
+Edit this part in the code:
 
-📂 Database Schema
+mycon = sqltor.connect(
+    host="localhost",
+    user="root",
+    password="pass"
+)
 
-Tables used in the project:
+🚀 Run the App
+python main.py
 
-restaurant_login
 
-restaurant_details
+Sit back and enjoy ordering food from your terminal 😄
 
-restaurant_menu
+🧠 How the App Flows
+App Start
+   ↓
+Choose User (Restaurant / Customer)
+   ↓
+Login or Create Account
+   ↓
+Role-based Menu
+   ↓
+Database Operations
+   ↓
+Exit
 
-restaurant_customer_orders
+⚠️ Current Limitations
 
-restaurant_customer_ratings
+Console-based (no GUI / web UI)
 
-customer_login
+Passwords stored as plain text
 
-customer_details
+No real payment gateway
 
-▶️ How to Run the Project
-1️⃣ Prerequisites
+Basic error handling
 
-Python 3.x installed
+(These are intentional to focus on learning core concepts.)
 
-MySQL installed and running
+🚀 Future Enhancements
 
-MySQL username & password configured
+🌐 Convert to Flask / Django web app
+
+🔐 Password hashing
+
+📦 Order status tracking
+
+🧑‍💼 Admin panel
+
+🎨 Frontend UI
+
+🛡️ Secure SQL queries
+
+👨‍💻 Author
+
+Naman Chaddha
+📘 Mini Project
+
+⭐ Like this project?
+
+Give it a ⭐ on GitHub — it really helps!
