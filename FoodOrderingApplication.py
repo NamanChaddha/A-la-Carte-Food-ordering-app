@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 A La Carte - Food Ordering and Delivery Application
+
+Please note:i have used comments for better understanding of the code for the reader.It does NOT imply it is done by some generative AI.100% of the code is human-written.  
 """
 
 import mysql.connector as sqltor
@@ -870,4 +872,5 @@ if __name__=='__main__':
     setup(mycon)
     AppStartupMenu(mycon)
     mycon.close()
+
  
