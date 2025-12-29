@@ -15,7 +15,7 @@ A La Carte is a menu-driven CLI application where:
 📊 Orders & ratings are stored and managed using MySQL
 
 Think of it as a mini Swiggy/Zomato, but in the terminal.
-<br><br><br><br>
+<br><br>
 🎮 What Can You Do?
 
 🔐 Login System
@@ -58,7 +58,7 @@ MODE 2:
 🕒 View past orders
 
 ⭐ Rate restaurants
-<br><br><br><br>
+<br><br>
 
 🗄️ Behind the Scenes (Database)
 
@@ -77,14 +77,18 @@ Ratings
 
 🛠️ Tech Stack
 Technology	Used For
-🐍 Python	Application Logic
-🗄️ MySQL	Database
-⌨️ CLI	User Interface
-🕒 datetime	Order timestamps
-▶️ How to Run This Project
 
-<br><br><br><br>
+ Python	Application Logic
+ 
+ MySQL	Database
+ 
+ CLI	User Interface
+ 
+datetime	Order timestamps
 
+How to Run This Project
+
+<br><br>
 ✅ Prerequisites
 
 Python 3.x
@@ -107,8 +111,7 @@ mycon = sqltor.connect(
 🚀 Run the App
 python main.py
 
-<br><br><br><br>
-
+<br><br>
 Sit back and enjoy ordering food from your terminal 😄
 <br><br><br><br>
 
@@ -134,7 +137,7 @@ Database Operations
    ↓
    
 Exit
-<br><br><br><br>
+<br><br>
 
 ⚠️ Current Limitations
 
@@ -144,7 +147,7 @@ Passwords stored as plain text
 
 No real payment gateway
 
-<br><br><br><br>
+<br><br>
 
 🚀<u>Enhancements(currently happening)</u>
 
@@ -154,10 +157,11 @@ No real payment gateway
 🧑‍💼 Admin panel
 🎨 Frontend UI(doing)
 🛡️ Secure SQL queries
-<br><br><br><br>
+<br><br>
 
 👨‍💻 Author
 Naman Chaddha
+
 📘 Python-MySQL Project
 
 ⭐ Like this project?
