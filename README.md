@@ -76,15 +76,15 @@ Bash
 python main.py
 Note: The system will automatically generate the required tables upon the first successful run.
 
-🧠 Learning Outcomes
+<h3>Learning Outcomes</h3><br>
 Database Design: Normalization and relationship mapping in MySQL.
 
 Backend Logic: Handling state and session logic in a CLI environment.
 
 Error Handling: Managing SQL exceptions and invalid user inputs.
 
-🚀 Roadmap
-[ ] Security: Implement SHA-256 password hashing.
+<h3>Roadmap</h3><br>
+-Security: Implement SHA-256 password hashing.
 
 [ ] GUI: Transition from CLI to a web interface using Flask.
 
