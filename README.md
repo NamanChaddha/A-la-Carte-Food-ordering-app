@@ -1,4 +1,6 @@
-# 🍕 A La Carte 
+# A La Carte 
+<img width="548" height="443" alt="image" src="https://github.com/user-attachments/assets/7001d758-aea8-4a33-8d60-f42f64b29e62" />
+
 > **Order. Eat. Rate. Repeat.** A professional terminal-based food ordering and delivery ecosystem.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
