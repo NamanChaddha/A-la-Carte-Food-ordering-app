@@ -1,169 +1,63 @@
-🍕 A La Carte
-Order. Eat. Rate. Repeat.
+# 🍕 A La Carte 
+> **Order. Eat. Rate. Repeat.** A professional terminal-based food ordering and delivery ecosystem.
 
-A console-based food ordering & delivery application built using Python and MySQL, simulating how real-world food delivery platforms work.
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
+---
 
-What is A La Carte?
+## 📖 Overview
+**A La Carte** is a robust console-based food ordering system built using **Python** and **MySQL**. It simulates the core logic of modern delivery platforms, handling everything from inventory management for restaurants to secure checkout flows for customers.
 
-A La Carte is a menu-driven CLI application where:
+### Why this project?
+- 🛠️ **Full CRUD Logic:** Create, Read, Update, and Delete data from a live SQL database.
+- 🔐 **Secure Access:** Role-based authentication (Restaurant vs. Customer).
+- 📊 **Relational Data:** Complex database design linking users, menus, and orders.
 
-🏪 Restaurants manage their menus & track orders
+---
 
-🧑‍🍳 Customers browse, order food & rate restaurants
+## 🎮 Key Features
 
-📊 Orders & ratings are stored and managed using MySQL
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏪 Restaurant Management</h3>
+      <ul>
+        <li><b>Inventory Control:</b> Seamlessly add, update, or remove menu items.</li>
+        <li><b>Order Tracking:</b> View incoming customer orders in real-time.</li>
+        <li><b>Feedback Loop:</b> Monitor restaurant ratings and customer reviews.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧑‍💻 Customer Experience</h3>
+      <ul>
+        <li><b>Smart Browsing:</b> Explore restaurants and dynamic menus.</li>
+        <li><b>Cart System:</b> Select quantities and manage your meal.</li>
+        <li><b>Secure Checkout:</b> Integrated flow for UPI, Card, or COD.</li>
+        <li><b>History:</b> Track and rate past dining experiences.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-Think of it as a mini Swiggy/Zomato, but in the terminal.
-<br><br>
-🎮 What Can You Do?
+---
 
-🔐 Login System
+## 🛠️ Tech Stack
+| Component | Technology |
+| :--- | :--- |
+| **Language** | Python 3.x |
+| **Database** | MySQL |
+| **Connector** | `mysql-connector-python` |
+| **Interface** | Command Line (CLI) |
 
-Separate login for Restaurant Owners & Customers
+---
 
-Username & password validation
+## ▶️ Getting Started
 
-Strong password rules
+### 1. Prerequisites
+Ensure you have MySQL installed and running on your local machine.
 
-3-attempt login limit
-<br><br>
-
-MODE 1:
-🏪 Restaurant Owner Mode
-
-✏️ Add / Edit restaurant details
-
-📋 Add & delete menu items
-
-📦 View customer orders (sales)
-
-⭐ View average ratings
-
-<br><br>
-
-MODE 2:
-🧑‍🍳 Customer Mode
-
-👤 Create & update profile
-
-🍽️ Browse restaurants
-
-📜 View menus
-
-🛒 Order food with quantity selection
-
-💳 Choose payment method (Card / COD / UPI)
-
-🕒 View past orders
-
-⭐ Rate restaurants
-<br><br>
-
-🗄️ Behind the Scenes (Database)
-
-All data is stored in MySQL, including:
-
-Users (restaurants & customers)
-
-Menus
-
-Orders
-
-Ratings
-
-📌 Tables are automatically created when the app runs for the first time.
-<br><br><br><br>
-
-🛠️ Tech Stack
-Technology	Used For
-
- Python	Application Logic
- 
- MySQL	Database
- 
- CLI	User Interface
- 
-datetime	Order timestamps
-
-How to Run This Project
-
-<br><br>
-✅ Prerequisites
-
-Python 3.x
-
-MySQL Server running
-
-📦 Install Required Package
+### 2. Install Dependencies
+```bash
 pip install mysql-connector-python
-
-🔧 Update Database Credentials
-
-Edit this part in the code:
-
-mycon = sqltor.connect(
-    host="localhost",
-    user="root",
-    password="pass"
-)
-
-🚀 Run the App
-python main.py
-
-<br><br>
-Sit back and enjoy ordering food from your terminal 😄
-<br><br><br><br>
-
-🧠 How the App Flows
-App Start
-
-   ↓
-   
-Choose User (Restaurant / Customer)
-
-   ↓
-   
-Login or Create Account
-
-   ↓
-   
-Role-based Menu
-
-   ↓
-   
-Database Operations
-
-   ↓
-   
-Exit
-<br><br>
-
-⚠️ Current Limitations
-
-Console-based (no GUI / web UI)
-
-Passwords stored as plain text
-
-No real payment gateway
-
-<br><br>
-
-🚀<u>Enhancements(currently happening)</u>
-
-🌐 Convert to Flask / Django web app ( already into it)
-🔐 Password hashing
-📦 Order status tracking
-🧑‍💼 Admin panel
-🎨 Frontend UI(doing)
-🛡️ Secure SQL queries
-<br><br>
-
-👨‍💻 Author
-Naman Chaddha
-
-📘 Python-MySQL Project
-
-⭐ Like this project?
-<br>
-Give it a ⭐ on GitHub,it really helps!
