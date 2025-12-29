@@ -59,5 +59,40 @@
 Ensure you have MySQL installed and running on your local machine.
 
 ### 2. Install Dependencies
-```bash
+
 pip install mysql-connector-python
+
+3. Database Configuration
+Open the main script and update your local MySQL credentials:
+
+Python
+
+mycon = sqltor.connect(
+    host="localhost",
+    user="root",
+    password="YOUR_PASSWORD_HERE"
+)
+4. Run the Application
+Bash
+
+python main.py
+Note: The system will automatically generate the required tables upon the first successful run.
+
+🧠 Learning Outcomes
+Database Design: Normalization and relationship mapping in MySQL.
+
+Backend Logic: Handling state and session logic in a CLI environment.
+
+Error Handling: Managing SQL exceptions and invalid user inputs.
+
+🚀 Roadmap
+[ ] Security: Implement SHA-256 password hashing.
+
+[ ] GUI: Transition from CLI to a web interface using Flask.
+
+[ ] Admin Panel: A master dashboard for platform-wide analytics.
+
+<p align="center"> Made with ❤️ by [Your Name/GitHub Username]
+
+
+<i>Give this project a ⭐ if you found it helpful!</i> </p>
