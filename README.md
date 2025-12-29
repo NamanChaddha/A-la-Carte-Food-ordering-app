@@ -92,7 +92,7 @@ Error Handling: Managing SQL exceptions and invalid user inputs.
 
 [ ] Admin Panel: A master dashboard for platform-wide analytics.
 
-<p align="center"> Made with ❤️ by [Your Name/GitHub Username]
+<p align="center"> Made with ❤️ by Naman Chaddha
 
 
 <i>Give this project a ⭐ if you found it helpful!</i> </p>
